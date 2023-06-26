@@ -34,7 +34,7 @@ void loop() {
     lcd.setCursor(0, 0);
     lcd.print("angle: ");
     lcd.print(i);
-    lcd.print(char(223));  // znak stopni
+    lcd.print(char(223));  // degree sign
     lcd.setCursor(0, 1);
     lcd.print("distance: ");
     lcd.print(distance);
@@ -42,8 +42,8 @@ void loop() {
     lcd.print("cm");
     delay(200);
     lcd.setCursor(8, 0);  //
-    lcd.print("   ");     // zamiast lcd.clear()
-    lcd.setCursor(11, 1); // angle:, distance: i cm zostają na wyświetlaczu
+    lcd.print("   ");     // instead of lcd.clear()
+    lcd.setCursor(11, 1); // angle:, distance:, cm stay on screen
     lcd.print("   ");     //
     delay(10);
   }
@@ -65,8 +65,8 @@ void loop() {
     lcd.print("cm");
     delay(200);
     lcd.setCursor(8, 0);  //
-    lcd.print("   ");     // zamiast lcd.clear()
-    lcd.setCursor(11, 1); // angle:, distance: i cm zostają na wyświetlaczu
+    lcd.print("   ");     // instead of lcd.clear()
+    lcd.setCursor(11, 1); // angle:, distance:, cm stay on screen
     lcd.print("   ");     //
     delay(10);
   }
