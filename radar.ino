@@ -57,7 +57,7 @@ void loop() {
     lcd.setCursor(0, 0);
     lcd.print("angle: ");
     lcd.print(i);
-    lcd.print(char(223));  // znak stopni
+    lcd.print(char(223));  // degree sign
     lcd.setCursor(0, 1);
     lcd.print("distance: ");
     lcd.print(distance);
